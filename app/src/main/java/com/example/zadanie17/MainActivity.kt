@@ -12,7 +12,10 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<Button>(R.id.button1).setOnClickListener {
-            findViewById<EditText>(R.id.editTextTextMultiLine).setText("Ivan \n Ovcharuk")
+            findViewById<EditText>(R.id.editTextTextMultiLine).setText(" Ivan \n Ovcharuk")
+        }
+        findViewById<Button>(R.id.button2).setOnClickListener {
+            findViewById<EditText>(R.id.editTextTextPersonName).setText("Ivan Ovcharuk")
         }
     }
 }
