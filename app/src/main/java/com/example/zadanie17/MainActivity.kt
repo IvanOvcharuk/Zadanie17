@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var x = "Ivan Ovcharuk"
+
         findViewById<Button>(R.id.button1).setOnClickListener {
-            findViewById<EditText>(R.id.editTextTextMultiLine).text
+            findViewById<EditText>(R.id.editTextTextMultiLine).setText("Ivan \n Ovcharuk")
         }
     }
 }
